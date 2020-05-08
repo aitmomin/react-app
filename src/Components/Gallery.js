@@ -45,7 +45,7 @@ class Gallery extends Component {
     }
 
     getHits(){
-        let YOUR_TOKEN_FROM_WEBSITE = ' GET YOUR TOKEN FROM pixabay.com/api ';
+        let YOUR_TOKEN_FROM_WEBSITE = 'GET YOUR TOKEN FROM "pixabay.com/api" and put it here';
         let url='https://pixabay.com/api/?' +
             'key='+YOUR_TOKEN_FROM_WEBSITE +
             '&q='+this.state.currentKeyWord +
