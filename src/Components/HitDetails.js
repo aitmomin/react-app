@@ -22,8 +22,9 @@ class HitDetails extends Component {
     }
 
     getHit(id){
+        let YOUR_TOKEN_FROM_WEBSITE = 'GET YOUR TOKEN FROM "pixabay.com/api" and put it here';
         let url='https://pixabay.com/api/?' +
-            'key=5832566-81dc7429a63c86e3b707d0429' +
+            'key='+YOUR_TOKEN_FROM_WEBSITE +
             '&id='+ id;
         axios.get(url).then((resp) => {
             this.setState({
